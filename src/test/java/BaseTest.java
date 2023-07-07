@@ -1,6 +1,8 @@
 import org.junit.Assert;
 import org.junit.Test;
+import org.junit.jupiter.api.Tag;
 
+@Tag("apiTests")
 public class BaseTest {
     @Test
     public void test1() {
